@@ -1,8 +1,12 @@
 {
   "dependencies": {
-    "@discordjs/voice": "github:discordjs/voice",
+    "@discordjs/opus": "github:discordjs/opus",
+    "@discordjs/voice": "^0.14.0",
+    "discord-api-types": "^0.37.35",
     "discord.js": "^14.7.1",
-    "distube": "^4.0.4"
+    "distube": "^4.0.4",
+    "ffmpeg-static": "^4.4.1",
+    "libsodium-wrappers": "^0.7.11"
   },
   "name": "arturocarioca3.0",
   "version": "1.0.0",
@@ -15,5 +19,13 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.34.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geromendez/arturo-carioca-3.0.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Geromendez/arturo-carioca-3.0/issues"
+  },
+  "homepage": "https://github.com/Geromendez/arturo-carioca-3.0#readme"
 }
