@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@discordjs/voice": "github:discordjs/voice",
+    "discord.js": "^14.7.1",
+    "distube": "^4.0.4"
+  },
+  "name": "arturocarioca3.0",
+  "version": "1.0.0",
+  "description": "botDiscord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.34.0"
+  }
+}
