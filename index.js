@@ -4,7 +4,6 @@ const path = require('node:path');
 // Require the necessary discord.js classes
 const { Collection, Client, Events, GatewayIntentBits } = require('discord.js');
 const { token } = require('./config.json');
-token = process.env.token;
 
 // Create a new client instance GUILD REFERS TO A DISCORD SERVER.
 //los gateway intents son los eventos que el bot va a escuchar, en este caso solo escucha los eventos de los servidores
